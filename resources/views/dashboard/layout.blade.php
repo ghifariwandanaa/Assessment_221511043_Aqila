@@ -61,9 +61,17 @@
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="documentation/documentation.html">
+            <a class="nav-link" href="{{route('barang.index')}}">
               <i class="mdi mdi-file-document-box-outline menu-icon"></i>
-              <span class="menu-title">Documentation</span>
+              <span class="menu-title">Data Barang</span>
+            </a>
+            <a class="nav-link" href="{{route('kasir.index')}}">
+              <i class="mdi mdi-file-document-box-outline menu-icon"></i>
+              <span class="menu-title">Data Kasir</span>
+            </a>
+            <a class="nav-link" href="{{route('tenan.index')}}">
+              <i class="mdi mdi-file-document-box-outline menu-icon"></i>
+              <span class="menu-title">Data Tenan</span>
             </a>
           </li>
         </ul>
@@ -83,12 +91,7 @@
         </div>
         <!-- content-wrapper ends -->
         <!-- partial:partials/_footer.html -->
-        <footer class="footer">
-        <div class="d-sm-flex justify-content-center justify-content-sm-between">
-          <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © <a href="https://www.bootstrapdash.com/" target="_blank">bootstrapdash.com </a>2021</span>
-          <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Only the best <a href="https://www.bootstrapdash.com/" target="_blank"> Bootstrap dashboard  </a> templates</span>
-        </div>
-        </footer>
+
         <!-- partial -->
       </div>
       <!-- main-panel ends -->

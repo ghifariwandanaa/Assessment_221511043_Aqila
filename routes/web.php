@@ -31,3 +31,7 @@ Route::prefix('barang')->group(function () {
     Route::delete('/{id}', [BarangController::class, 'destroy'])->name('barang.destroy');
 });
 
+Route::get('/kasir', [KasirController::class, 'index'])->name('kasir.index');
+Route::get('/tenan', [TenanController::class, 'index'])->name('tenan.index');
+Route::get('/transaksi', [TransaksiController::class, 'index'])->name('transaksi.index');
+Route::get('/struk', [StrukController::class, 'index'])->name('struk.index');
